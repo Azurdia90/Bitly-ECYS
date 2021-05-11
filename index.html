@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/cons.js"></script>
+<script src="js/enviar.js"></script>
+</head>
+<body>
+  <h1>BITLY</h1>
+  <br>
+  <span id = "res">Ingrese el enlace que desea obtener con bitly.com</span>
+  <form>
+    <label for="fname">URL:</label><br>
+    <input type="text" id="longurl" name="longurl" size = "50" value="www.google.comt">
+    <br>
+    <!-- <input type="button"  id="buttonurl" onclick="send_bitly(longurl)" value="Enviar"> -->
+    <input type="button"  id="buttonurl" value="Enviar">
+    <br><br>
+    <span id = "res">Link generado por bitly.com</span>
+    <br>
+    <input type="text" id="shorturl" name="shorturl" size = "50" value="short url" readonly>
+  </form> 
+
+</body>
+</html>
